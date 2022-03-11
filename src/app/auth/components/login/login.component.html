@@ -1,0 +1,33 @@
+
+
+    <div class="col-md-6 offset-md-3 mt-4" id="container">
+     
+     
+      <h4>
+            Login
+        </h4>
+        <form>
+          <div class="form-group">
+            <label for="loginemail" ></label>
+            <input type="email" 
+            class="form-control" 
+            id="email" placeholder="Enter email">
+            
+            <div class="form-group">
+              <label for="loginpassword" ></label>
+              <input type="password" class="form-control" id="password" placeholder="Enter password">
+            </div>
+            <p></p>
+            <button type="submit" class="btn btn-dark">Submit</button>
+           
+          </div>
+          <p></p>
+          <h6>Don't have a account?</h6>
+            <div class="form-group form-check">
+             
+              <a [routerLink]="['/user/register']">
+                <button type="button" class="btn btn-primary">Register</button></a>
+            </div>
+           </form>
+    
+</div>
